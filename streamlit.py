@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 epsilons = [0, .05, .1, .15, .2, .25, .3]
-pretrained_model = "data/lenet_mnist_model.pth"
+pretrained_model = "lenet_mnist_model.pth"
 use_cuda=True
 # Set random seed for reproducibility
 torch.manual_seed(42)
